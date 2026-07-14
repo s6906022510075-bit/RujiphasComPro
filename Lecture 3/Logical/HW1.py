@@ -22,5 +22,5 @@ elif choice == '4':
     if num2 != 0:
         result = num1 / num2
         print("The result of division is:", result)
-    else:
-        print("Error: Division by zero is not allowed.")
+else:
+        print("Error: Invalid choice.")
